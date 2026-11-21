@@ -11,3 +11,10 @@ __pycache__/
 *.pyc
 .DS_Store
 .env*
+
+# Local review drafts and temporary Python bytecode
+Cần tôi duyệt/
+Can_toi_duyet/
+*_CHO_XAC_NHAN.zip
+HO_SO_G09_CO_AI_HO_TRO_*/
+CHUAN_BI_NOP_DAY12_*/
