@@ -32,8 +32,8 @@ Danh sách lớp và thuộc tính dự kiến cho DMS/OMS, bám Guideline Cabin
 
 1. **Câu hỏi:** Khi có vật hình em bé giống búp bê trong nôi, có gán riêng object với type=other hay bỏ qua? Tiêu chí phân biệt và box của vật bên trong là gì?
    - **Khung ví dụ:** G09 S01_rgb, S01_ir.
-   - **Cách trong bản export hiện có:** có infant_seat cho chiếc nôi; chưa có box riêng cho vật hình em bé. Cần coach xác nhận cách xử lý, không gọi vật đó là trẻ em thật chỉ từ suy đoán.
+   - **Phương án trong bản export:** nôi có nhãn infant_seat. Câu hỏi nhằm làm rõ vật hình em bé bên trong có cần box riêng theo quy tắc vật nằm trong ghế hay không.
 
 2. **Câu hỏi:** Với cấu trúc ghế có thể bị nhầm giữa child_seat và infant_seat, guideline cần bổ sung đặc điểm nhận dạng nào và xử lý thế nào khi phần tay xách/đế bị che?
    - **Khung ví dụ:** G09 S05_rgb, S05_ir, S06_rgb, S06_ir.
-   - **Cách trong các bản đối chiếu:** bản của tôi đang dùng child_seat, bản Khánh dùng infant_seat. Sự khác nhau giữa hai bản là tình huống để đề xuất tiêu chí phân biệt rõ hơn. Câu hỏi này chưa được ghi là coach đã trả lời; kết quả review và rework được theo dõi riêng.
+   - **Phương án trong bản export:** child_seat. Câu hỏi nhằm bổ sung tiêu chí hình dạng và cấu trúc để phân biệt nhất quán ghế trẻ em với nôi dạng xách theo Guideline Cabin v1.0.
