@@ -1,0 +1,132 @@
+{
+  "S01": {
+    "rgb": {
+      "pixels": 614400,
+      "mean_gray": 40.084,
+      "std_gray": 29.783,
+      "color_pixels_gt5_pct": 60.198,
+      "near_black_lt16_pct": 21.285,
+      "near_white_gt250_pct": 0.0,
+      "size": [
+        960,
+        640
+      ]
+    },
+    "ir": {
+      "pixels": 614400,
+      "mean_gray": 62.636,
+      "std_gray": 41.394,
+      "color_pixels_gt5_pct": 0.0,
+      "near_black_lt16_pct": 6.86,
+      "near_white_gt250_pct": 0.0,
+      "size": [
+        960,
+        640
+      ]
+    }
+  },
+  "S02": {
+    "rgb": {
+      "pixels": 614400,
+      "mean_gray": 26.712,
+      "std_gray": 36.56,
+      "color_pixels_gt5_pct": 59.809,
+      "near_black_lt16_pct": 53.39,
+      "near_white_gt250_pct": 0.468,
+      "size": [
+        960,
+        640
+      ]
+    },
+    "ir": {
+      "pixels": 614400,
+      "mean_gray": 57.584,
+      "std_gray": 45.749,
+      "color_pixels_gt5_pct": 0.0,
+      "near_black_lt16_pct": 12.882,
+      "near_white_gt250_pct": 0.57,
+      "size": [
+        960,
+        640
+      ]
+    }
+  },
+  "D04": {
+    "full": {
+      "pixels": 1310720,
+      "mean_gray": 22.27,
+      "std_gray": 25.7,
+      "color_pixels_gt5_pct": 0.0,
+      "near_black_lt16_pct": 63.512,
+      "near_white_gt250_pct": 0.105,
+      "size": [
+        1280,
+        1024
+      ]
+    },
+    "face_crop": {
+      "pixels": 48480,
+      "mean_gray": 29.22,
+      "std_gray": 12.394,
+      "color_pixels_gt5_pct": 0.0,
+      "near_black_lt16_pct": 19.113,
+      "near_white_gt250_pct": 0.0,
+      "size": [
+        202,
+        240
+      ]
+    },
+    "face_attributes": {
+      "eye_left": "open",
+      "eye_right": "unknown",
+      "glasses": "clear",
+      "gaze_zone": "mirror_r"
+    },
+    "right_eye_outside_points": 4,
+    "crop_coordinates": [
+      979,
+      459,
+      1181,
+      699
+    ]
+  },
+  "D06": {
+    "full": {
+      "pixels": 1310720,
+      "mean_gray": 26.954,
+      "std_gray": 33.284,
+      "color_pixels_gt5_pct": 0.0,
+      "near_black_lt16_pct": 58.968,
+      "near_white_gt250_pct": 0.099,
+      "size": [
+        1280,
+        1024
+      ]
+    },
+    "face_crop": {
+      "pixels": 47988,
+      "mean_gray": 44.378,
+      "std_gray": 28.249,
+      "color_pixels_gt5_pct": 0.0,
+      "near_black_lt16_pct": 11.915,
+      "near_white_gt250_pct": 0.0,
+      "size": [
+        186,
+        258
+      ]
+    },
+    "face_attributes": {
+      "eye_left": "open",
+      "eye_right": "unknown",
+      "glasses": "none",
+      "gaze_zone": "lap"
+    },
+    "right_eye_outside_points": 4,
+    "crop_coordinates": [
+      930,
+      366,
+      1116,
+      624
+    ]
+  }
+}
