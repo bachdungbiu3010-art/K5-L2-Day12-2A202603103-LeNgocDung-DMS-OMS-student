@@ -1,9 +1,9 @@
 PHƯƠNG PHÁP IR_LOG — G09
 
-Bốn dòng được soạn có AI hỗ trợ từ phép đo cục bộ bằng Pillow trên G09 và nhãn XML. Đây là phân tích định lượng và dữ liệu nhãn; không được trình bày là lời kể người học tự quan sát bằng mắt.
+Bốn dòng được tổng hợp từ phép đo cục bộ bằng Pillow trên G09 và nhãn XML. Đây là phân tích định lượng và dữ liệu nhãn; không được trình bày là lời kể người học tự quan sát bằng mắt.
 
 Pixel có tín hiệu màu: max(|R-G|, |R-B|)>5. Pixel cận đen: mức xám <16 trên thang 0–255. Các số đo toàn ảnh không chẩn đoán chất lượng từng mắt hoặc đối tượng.
 
 Vùng face ở D04 và D06 được cắt theo box sẵn có để thống kê, không tạo nhãn mới. Các cờ outside/occluded là cờ có trong export. Không suy phản xạ LED, nguyên nhân che khuất hoặc nhãn đúng từ độ sáng. Gói dữ liệu không có RGB cùng cảnh D04/D06 làm đối chứng.
 
-Nguồn đo cụ thể nằm trong ir_measurements.json. Hai nguồn IR_sim và real_IR được ghi riêng. Phương án sử dụng phân tích có AI hỗ trợ được người học thống nhất, khai báo trong prompts.md.
+Nguồn đo cụ thể nằm trong ir_measurements.json. Hai nguồn IR_sim và real_IR được ghi riêng. Người học thống nhất sử dụng phương pháp này; công cụ được khai báo trong prompts.md.

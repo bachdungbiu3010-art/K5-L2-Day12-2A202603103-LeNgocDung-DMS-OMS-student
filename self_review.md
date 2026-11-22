@@ -2,14 +2,14 @@
 
 ## 1. Rà soát bốn khung
 
-Bảng tổng hợp dựa trên các lỗi đã ghi nhận, bản export và kết quả đối chiếu có AI hỗ trợ. Nhận xét từ dữ liệu nhãn được phân biệt với kết luận đúng/sai theo nội dung ảnh.
+Bảng tổng hợp dựa trên các lỗi đã ghi nhận, bản export và kết quả đối chiếu hai file export. Nhận xét từ dữ liệu nhãn được phân biệt với kết luận đúng/sai theo nội dung ảnh.
 
 | Ảnh | Đối tượng | Loại ghi nhận | Ghi chú | Cách xử lý |
 |---|---|---|---|---|
 | S01_ir | frame_meta | Nhầm modality | Trong quá trình làm đã có modality=rgb trên ảnh _ir; bản mới có modality=ir | Đã sửa trên CVAT và lưu trong export |
 | S07_rgb | frame_meta | missing | Bản ghép trước thiếu tag; bản mới có đúng tag, modality=rgb, light=unknown | Đã bổ sung; check_final báo 0 lỗi |
-| D01 | face, face13 | Bất đồng thuộc tính/cờ | Bản tôi có gaze_zone=cluster, right_eye_outer.occluded=1; bản đối chiếu dùng road và cờ 0 | Ghi ambiguous và giữ nhãn nguồn; không suy một bên đúng chỉ từ XML |
-| D04 | face, face13 | Bất đồng trạng thái mắt/cờ | Hai bản khác eye_left và bốn cờ mắt trái; các nhãn có thể tự nhất quán trong mỗi bản | Ghi ambiguous và giữ nhãn nguồn theo mức bằng chứng |
+| D01 | face, face13 | Bất đồng thuộc tính/cờ | Bản tôi có gaze_zone=cluster, right_eye_outer.occluded=1; bản đối chiếu dùng road và cờ 0 | Chọn bản tôi: giữ gaze_zone=cluster và right_eye_outer.occluded=1; không thay theo bản đối chiếu |
+| D04 | face, face13 | Bất đồng trạng thái mắt/cờ | Hai bản khác eye_left và bốn cờ mắt trái; các nhãn có thể tự nhất quán trong mỗi bản | Chọn bản tôi: giữ trạng thái mắt và cờ điểm của export cá nhân |
 
 ## 2. Nhóm sai sót đã ghi nhận và cách tránh
 
@@ -21,8 +21,8 @@ Bảng tổng hợp dựa trên các lỗi đã ghi nhận, bản export và k�
 
 Hai dòng S02 cho thấy bản đối chiếu có occupied=yes ngoài schema, còn unknown của tôi là giá trị hợp lệ. Điều đó giúp phân biệt lỗi quy tắc với bất đồng cần xem nội dung ảnh. Sáu khác biệt thuộc tính face ở OMS cũng cần xét đúng phạm vi yêu cầu, thay vì đổi giá trị chỉ để hai bản giống nhau.
 
-Không dùng số dòng thống nhất hoặc mức chồng box làm bằng chứng tuyệt đối rằng một người đúng. Kết luận một trường hợp Khánh đúng và tôi sai phải có căn cứ quan sát cụ thể; các bất đồng được bảo lưu trong log thay cho một ví dụ tự dựng.
+Bài học là phân biệt kết quả kiểm cấu trúc, sự khác nhau giữa hai bản và quyết định chọn bản nộp. Không dùng số dòng thống nhất hoặc mức chồng box để tự khẳng định một người đúng theo ảnh. Sau đối chiếu, tôi quyết định giữ phần gán nhãn cá nhân và ghi rõ quyết định trong từng dòng.
 
 ## 4. Phương án đã thống nhất
 
-Tôi đã thống nhất ưu tiên chất lượng dữ liệu và hiệu quả: xử lý điều kiểm chứng được, giữ nhãn nguồn khi thiếu căn cứ và ghi rõ ambiguous theo guideline. Kết quả kiểm kỹ thuật của export là 22 khung, 22 frame_meta, 0 lỗi, 0 cảnh báo.
+Ngày 22/11/2026, tôi quyết định dùng bản gán nhãn của mình cho toàn bộ 30 dòng đối chiếu. Export được giữ nguyên; kết quả kiểm kỹ thuật là 22 khung, 22 frame_meta, 0 lỗi, 0 cảnh báo. Quyết định chọn bản không được ghi thành kết luận mọi nhãn đã được coach xác nhận.

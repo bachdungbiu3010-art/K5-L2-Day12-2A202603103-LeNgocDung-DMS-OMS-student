@@ -58,6 +58,8 @@ Cốt lõi là S01–S08 (16 ảnh) và D01–D06 (6 ảnh), tổng 22 ảnh. S0
 
 MSSV **2A202603103** · bộ ảnh **G09** · làm cá nhân.
 
+Bản nộp sử dụng phần gán nhãn cá nhân của Lê Ngọc Dũng, được chốt ngày **22/11/2026** sau đối chiếu. Quyết định từng dòng nằm trong disagreement_log.csv.
+
 | Nội dung | File |
 |---|---|
 | Export CVAT đủ 22 khung, không kèm ảnh | [export_final.zip](export_final.zip) |

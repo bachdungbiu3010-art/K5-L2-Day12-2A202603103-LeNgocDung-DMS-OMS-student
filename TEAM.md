@@ -2,32 +2,29 @@
 
 **Mã bộ ảnh:** G09 · **Hình thức:** cá nhân.
 
-| Họ tên | MSSV | Đã gán đủ 22 ảnh? | Review chéo với | Số dòng đối chiếu đã phân loại |
+| Họ tên | MSSV | Đã gán đủ 22 ảnh? | Review chéo với | Số dòng đối chiếu đã chốt |
 |---|---|---|---|---|
-| Lê Ngọc Dũng | 2A202603103 | Có | Nguyễn Bảo Khánh — 2A202603191 | 30: 2 mine, 28 ambiguous |
+| Lê Ngọc Dũng | 2A202603103 | Có | Nguyễn Bảo Khánh — 2A202603191 | 30 dòng: chọn bản của tôi (mine) |
 
 ## Cá nhân
 
 ### LeNgocDung-2A202603103
 
-- **Phần tôi làm:** gán DMS và OMS, lưu các bản export, bổ sung frame_meta và kiểm tra kết quả. Phần DMS và OMS đều do tôi thực hiện theo xác nhận trong quá trình làm bài.
-- **Nguồn đối chiếu:** file Khanh_review cheo.zip được người học cung cấp là bản của Nguyễn Bảo Khánh. So sánh thực tế có 22 khung chung và 30 dòng khác biệt.
-- **Điều tôi học được:** ghế gọi theo xe; trái/phải mắt và tay theo người; không nhìn rõ thì unknown; ảnh SVIRO IR-sim khác NIR thật; hai bản giống nhau không tự chứng minh đúng.
+- **Phần tôi làm:** gán đủ DMS và OMS, lưu export, sửa thông tin frame_meta và kiểm tra kết quả.
+- **Nguồn đối chiếu:** Khanh_review cheo.zip, được cung cấp là bản của Nguyễn Bảo Khánh. Công cụ so sánh có 22 khung chung và 30 dòng khác biệt.
+- **Điều tôi học được:** ghế gọi theo xe; trái/phải mắt và tay theo người; không nhìn rõ thì unknown; tách IR-sim với NIR thật; phân biệt lỗi giá trị không hợp lệ với khác biệt giữa hai bản.
 
-## Phương án tôi đã thống nhất
+## Quyết định bản nộp
 
-Ngày **21/11/2026**, **Lê Ngọc Dũng đã thống nhất** định hướng ưu tiên **chất lượng dữ liệu và hiệu quả**, đồng thời sử dụng phương án xử lý có AI hỗ trợ:
+Ngày **22/11/2026**, **Lê Ngọc Dũng quyết định chọn toàn bộ phần gán nhãn của mình** và xác nhận dùng phương án này để nộp bài, theo định hướng ưu tiên chất lượng dữ liệu và hiệu quả.
 
-1. Áp dụng quy tắc và bằng chứng kiểm chứng được. Hai dòng occupied=yes của bản đối chiếu không thuộc bộ giá trị của bài; giữ giá trị unknown hợp lệ trong bản của tôi.
-2. Sáu khác biệt thuộc tính face trong OMS được ghi ambiguous và giữ bản tôi, vì OMS chỉ bắt buộc box mặt.
-3. Hai mươi hai dòng còn lại được ghi ambiguous và giữ nguyên nhãn nguồn, thay vì chọn một bên chỉ vì có bất đồng. Cách xử lý này bảo toàn dữ liệu và thể hiện đúng mức chắc chắn của bằng chứng.
+- Cả 30 dòng trong disagreement_log.csv có verdict=mine, kèm mục guideline và cách xử lý cụ thể.
+- Hai dòng occupied=yes của bản đối chiếu không thuộc bộ giá trị của bài; giữ occupied=unknown của bản tôi.
+- Các khác biệt còn lại giữ nhãn, thuộc tính, box và điểm của bản cá nhân. Không lấy sự giống nhau với bản đối chiếu làm mục tiêu thay nhãn.
+- Bản sử dụng là export_final.zip. Quyết định đối chiếu này giữ nguyên dữ liệu trong export, không tạo một lần sửa nhãn trên CVAT không có thật.
 
-Việc ghi **đã thống nhất** ở đây là sự xác nhận của **Lê Ngọc Dũng đối với phương án xử lý**. Đây không phải xác nhận tất cả nhãn đều đúng hoặc chữ ký/thông báo quyết định từng dòng của Nguyễn Bảo Khánh.
+Đây là quyết định chọn bản nộp của **Lê Ngọc Dũng**; không thay cho xác nhận từng dòng của Nguyễn Bảo Khánh hoặc kết luận đúng/sai theo đáp án của coach. Hai câu hỏi leo thang được trình bày trong class_list_v0.md.
 
-## Ca guideline cần phân xử
+## Kết quả kiểm tra
 
-Các ca có verdict=ambiguous trong disagreement_log.csv được bảo lưu theo quy tắc của bài. Hai câu hỏi leo thang có ví dụ cụ thể nằm trong class_list_v0.md.
-
-## Hỗ trợ AI
-
-Codex hỗ trợ giải thích, đối chiếu file và soạn báo cáo. Người học quyết định sử dụng phương án trên. Khai báo chi tiết nằm trong prompts.md.
+Export có **22 khung**, mỗi khung có đúng một frame_meta. Công cụ kiểm cuối báo **0 lỗi, 0 cảnh báo**. Chi tiết công cụ sử dụng được khai báo trong prompts.md.

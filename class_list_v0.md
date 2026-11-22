@@ -1,6 +1,6 @@
 # Danh sách lớp v0 — Lê Ngọc Dũng · G09
 
-Danh sách lớp và thuộc tính dự kiến cho DMS/OMS, bám Guideline Cabin v1.0 của bài 12, được biên soạn với hỗ trợ AI. Bộ ảnh thực hành không đại diện đầy đủ mọi tình huống vận hành. Các câu hỏi cuối bài là câu hỏi đề xuất để làm rõ guideline.
+Danh sách lớp và thuộc tính dự kiến cho DMS/OMS, bám Guideline Cabin v1.0 của bài 12. Bộ ảnh thực hành không đại diện đầy đủ mọi tình huống vận hành. Các câu hỏi cuối bài là câu hỏi đề xuất để làm rõ guideline.
 
 ## DMS
 
