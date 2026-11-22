@@ -1,12 +1,10 @@
 # Exit ticket — Ngày 12
 
-Yêu cầu gốc: làm cá nhân, không mở slide, khoảng 10 phút.
+**Họ tên:** Lê Ngọc Dũng · **MSSV:** 2A202603103 · **Mã bộ ảnh:** G09
 
-**Hình thức lời giải:** soạn với hỗ trợ AI theo yêu cầu của người học và được Lê Ngọc Dũng thống nhất sử dụng trong hồ sơ. Đây là lời giải có khai báo AI, không được ghi là bài đã làm độc lập không dùng tài liệu.
+**Ngày xác nhận đáp án:** 22/11/2026.
 
-**Họ tên:** Lê Ngọc Dũng · **Mã:** G09
-
----
+Các câu trả lời dưới đây là phương án cuối cùng được người học xác nhận sau trao đổi và giải thích.
 
 **Câu 1 · Chọn một.** Camera DMS trên nhiều xe tự chiếu đèn LED cận hồng ngoại khoảng 940 nm lên mặt tài xế. Lý do chính là gì?
 
@@ -19,7 +17,10 @@ Yêu cầu gốc: làm cá nhân, không mở slide, khoảng 10 phút.
 
 **Câu 2 · Số, 2 chữ số thập phân.** Camera DMS chạy 30 khung hình/giây. Model ước lượng yaw của đầu tài xế lớn hơn 30° liên tục từ khung hình số 240 đến khung hình số 314, **tính cả khung 240 và khung 314**. Tài xế không nhìn đường trong bao nhiêu giây?
 
-Đáp án: **2,50 s**. Tính cả hai đầu: 314 − 240 + 1 = 75 khung; thời gian = 75 / 30 = 2,50 giây.
+Đáp án: **2,50 giây**.
+
+- Tổng số khung hình, tính cả hai đầu: **314 − 240 + 1 = 75 khung**.
+- Thời gian tương ứng: **75 / 30 = 2,50 giây**.
 
 **Câu 3 · Chọn tất cả đáp án đúng.** Những câu nào đúng về dữ liệu cabin so với dữ liệu camera ngoài xe?
 

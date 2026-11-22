@@ -67,6 +67,6 @@ MSSV **2A202603103** · bộ ảnh **G09** · làm cá nhân.
 | Báo cáo IR và phương pháp | [ir_log.csv](ir_log.csv), [IR_PHUONG_PHAP.txt](IR_PHUONG_PHAP.txt) |
 | Danh sách lớp DMS/OMS v0 | [class_list_v0.md](class_list_v0.md) |
 | Tự đánh giá | [self_review.md](self_review.md) |
-| Exit ticket có AI hỗ trợ | [exit_ticket.md](exit_ticket.md) |
+| Exit ticket | [exit_ticket.md](exit_ticket.md) |
 | Thông tin cá nhân và người review | [TEAM.md](TEAM.md) |
 | Khai báo dùng AI | [prompts.md](prompts.md) |
