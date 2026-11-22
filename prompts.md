@@ -12,7 +12,6 @@
 | 6 | Phân tích IR | Tính số đo cục bộ và soạn 4 dòng ir_log, tách IR_sim/real_IR | Phương pháp và số đo được lưu riêng; không quy số đo toàn ảnh thành kết luận đúng/sai từng nhãn |
 | 7 | Soạn danh sách lớp, tự đánh giá và TEAM | Dùng thông tin trong guideline, file xuất và trao đổi để viết báo cáo | Không tự dựng một ca Khánh đúng/tôi sai hoặc xác nhận coach đã trả lời |
 | 8 | Giải thích và rà soát exit ticket | Người học gửi phép tính 75/30 = 2,50 giây và giải thích mục đích NIR; sau phản hồi kiến thức đã chốt câu 3 là A, B, C ngày 22/11/2026 | Đáp án cuối trong exit_ticket.md được người học xác nhận sau trao đổi; không ghi là đã làm độc lập không dùng tài liệu |
-| 9 | Đọc cách nộp và cập nhật GitHub | Đưa file bài làm vào thư mục gốc, kiểm tên và loại dữ liệu | Giữ ảnh cabin và bản export của người đối chiếu ở máy; chỉ đưa dữ liệu nhãn và báo cáo của bài làm lên repo |
 
 ## Dữ liệu đã trao đổi
 
