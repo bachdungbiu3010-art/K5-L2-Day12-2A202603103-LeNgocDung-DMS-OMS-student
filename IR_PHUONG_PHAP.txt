@@ -7,3 +7,5 @@ Pixel có tín hiệu màu: max(|R-G|, |R-B|)>5. Pixel cận đen: mức xám <1
 Vùng face ở D04 và D06 được cắt theo box sẵn có để thống kê, không tạo nhãn mới. Các cờ outside/occluded là cờ có trong export. Không suy phản xạ LED, nguyên nhân che khuất hoặc nhãn đúng từ độ sáng. Gói dữ liệu không có RGB cùng cảnh D04/D06 làm đối chứng.
 
 Nguồn đo cụ thể nằm trong ir_measurements.json. Hai nguồn IR_sim và real_IR được ghi riêng. Người học thống nhất sử dụng phương pháp này; công cụ được khai báo trong prompts.md.
+
+Ngữ cảnh nhãn sau review: dùng export_final_v2.zip. Sáu giá trị D04 đã cập nhật; box mặt/tọa độ không đổi nên các số đo ảnh được giữ nguyên, không trình bày là đã đo lại. Ngữ cảnh phiên bản được ghi trong ir_measurements.json.

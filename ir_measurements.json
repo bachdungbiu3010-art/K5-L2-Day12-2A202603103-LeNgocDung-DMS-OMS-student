@@ -77,7 +77,7 @@
       ]
     },
     "face_attributes": {
-      "eye_left": "open",
+      "eye_left": "unknown",
       "eye_right": "unknown",
       "glasses": "clear",
       "gaze_zone": "mirror_r"
@@ -88,7 +88,9 @@
       459,
       1181,
       699
-    ]
+    ],
+    "left_eye_occluded_points": 4,
+    "mouth_right_outside": 1
   },
   "D06": {
     "full": {
@@ -128,5 +130,11 @@
       1116,
       624
     ]
+  },
+  "_annotation_context": {
+    "source": "export_final_v2.zip",
+    "annotation_sha256": "bf51378cb38324c33bac980f3803625a08625c286168280c8b29f902ba0baec7",
+    "metrics_recomputed": false,
+    "note": "Các số đo ảnh và box mặt giữ nguyên; thông tin nhãn được đối chiếu bản v2 sau sửa D04."
   }
 }

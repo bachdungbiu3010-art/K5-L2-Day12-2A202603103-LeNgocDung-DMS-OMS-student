@@ -58,12 +58,14 @@ Cốt lõi là S01–S08 (16 ảnh) và D01–D06 (6 ảnh), tổng 22 ảnh. S0
 
 MSSV **2A202603103** · bộ ảnh **G09** · làm cá nhân.
 
-Bản nộp sử dụng phần gán nhãn cá nhân của Lê Ngọc Dũng, được chốt ngày **22/11/2026** sau đối chiếu. Quyết định từng dòng nằm trong disagreement_log.csv.
+Bản nộp sau review là **export_final_v2.zip**, chốt ngày **22/11/2026**: giữ 24 dòng đối chiếu theo bản cá nhân, sửa sáu giá trị D04 theo Khánh. Quyết định từng dòng nằm trong disagreement_log.csv.
 
 | Nội dung | File |
 |---|---|
-| Export CVAT đủ 22 khung, không kèm ảnh | [export_final.zip](export_final.zip) |
-| Kiểm cuối: 0 lỗi, 0 cảnh báo | [check_final.txt](check_final.txt) |
+| Export sau review, đủ 22 khung, không kèm ảnh | [export_final_v2.zip](export_final_v2.zip) |
+| Export trước sửa | [export_final.zip](export_final.zip) |
+| Kiểm sau review: 0 lỗi, 0 cảnh báo | [check_final_v2.txt](check_final_v2.txt) |
+| Kiểm bản trước sửa | [check_final.txt](check_final.txt) |
 | Kiểm phạm vi S01–S02 và D01–D02 | [check_cpA.txt](check_cpA.txt), [check_cpB.txt](check_cpB.txt) |
 | Đối chiếu và phương án xử lý bất đồng | [disagreement_log.csv](disagreement_log.csv) |
 | Báo cáo IR và phương pháp | [ir_log.csv](ir_log.csv), [IR_PHUONG_PHAP.txt](IR_PHUONG_PHAP.txt) |
