@@ -13,6 +13,7 @@
 | 7 | Soạn danh sách lớp, tự đánh giá và TEAM | Dùng thông tin trong guideline, file xuất và trao đổi để viết báo cáo | Không tự dựng một ca Khánh đúng/tôi sai hoặc xác nhận coach đã trả lời |
 | 8 | Giải thích và rà soát exit ticket | Người học gửi phép tính 75/30 = 2,50 giây và giải thích mục đích NIR; sau phản hồi kiến thức đã chốt câu 3 là A, B, C ngày 22/11/2026 | Đáp án cuối trong exit_ticket.md được người học xác nhận sau trao đổi; không ghi là đã làm độc lập không dùng tài liệu |
 | 9 | Cập nhật bản v2 theo giá trị người học chốt | Sửa sáu giá trị tại D04 trong XML export: eye_left=unknown, bốn occluded=1, mouth_right.outside=1 | Tạo export_final_v2.zip từ bản gốc; xác nhận chỉ đổi sáu giá trị, giữ tọa độ và 21 khung khác; cabin_check báo 0 lỗi, 0 cảnh báo. Đây là cập nhật file xuất, không ghi là đã thao tác sửa trên giao diện CVAT |
+| 10 | Kiểm file ExportV2.zip vừa xuất từ CVAT | Phát hiện eye_left=open và bốn điểm mắt trái bị đánh outside thay vì occluded; cờ mouth_right.outside còn 0 | Giữ file người học xuất làm bản gốc, chỉnh các thuộc tính/cờ D04 đúng giá trị người học đã chốt. Bản nhãn sau chỉnh khớp phương án v2 đã duyệt, giữ nguyên tọa độ và 21 khung khác; cabin_check báo 0 lỗi, 0 cảnh báo. Cập nhật được thực hiện trên file xuất, không ghi là đã sửa trạng thái trong giao diện CVAT |
 
 ## Dữ liệu đã trao đổi
 

@@ -133,8 +133,9 @@
   },
   "_annotation_context": {
     "source": "export_final_v2.zip",
-    "annotation_sha256": "bf51378cb38324c33bac980f3803625a08625c286168280c8b29f902ba0baec7",
+    "annotation_sha256": "e2e646c26a6f7c7ed2a1c99ac2b874f7c82d5428ed822388670939fd0e5a2441",
     "metrics_recomputed": false,
-    "note": "Các số đo ảnh và box mặt giữ nguyên; thông tin nhãn được đối chiếu bản v2 sau sửa D04."
+    "note": "Các số đo ảnh và box mặt giữ nguyên; thông tin nhãn được đối chiếu bản v2 sau sửa D04.",
+    "source_export": "ExportV2.zip"
   }
 }
